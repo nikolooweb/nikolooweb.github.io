@@ -1,0 +1,188 @@
+body {
+  background-image: linear-gradient(to bottom,  rgb(100, 230, 250), rgb(3, 99, 255));
+
+}
+
+
+
+
+.header {
+	
+	background-color: white;
+	text-align: center;
+	padding-bottom: 10px;
+	border-width: 20px;
+	border-color: blue;
+	padding: 30px;
+	border-style: solid solid none solid;		
+}
+
+.header a{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 80px;
+	color: black;
+	text-decoration: none;	
+}
+
+img#super {
+ width: 50%;
+ box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 5), 0 8px 10px 0 rgba(0, 0, 0, 0.05);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 100%;
+  background-color: red;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+  right: 0;
+}
+
+.imgall :hover{
+	
+  opacity: 0.8;	
+}
+
+
+
+
+
+
+
+
+
+
+
+.toplinks {
+  overflow: hidden;
+  background-color: black;  
+  border-left: 20px solid blue;
+  border-right: 20px solid blue;
+}
+
+.toplinks a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  width: 33.33%;
+  padding: 10px 0px 10px 0px;
+  text-decoration: none;
+  font-family: "Arial Black", Gadget, sans-serif;  
+}
+
+.toplinks a:hover {
+  background-color: white;
+  color: black;
+  
+}
+
+
+
+
+.columnmain {
+	padding-right: 15%;
+	padding-left: 15%;
+  width: 70%;
+  font-family: Verdana, Geneva, sans-serif;
+  
+  
+}
+
+
+.columnback {
+  background-color: white;
+  padding: 10px 20px 20px 20px;
+  margin: 15px;
+}
+
+
+.icon {
+  
+position: fixed;
+  top: 80%;
+  left: 90%;
+  display: block;
+}
+
+.icon a:hover{
+  filter: blur(2px);
+}
+
+
+
+
+.wrapper{
+
+position: fixed;
+  top: 90%;
+  left: 5%;
+}
+
+
+.wrapper a{
+  
+  display: block;
+  background-color: rgb(5, 100, 200);
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, sans-serif;
+  text-decoration: none;
+  color: white;
+  border: 3px solid black;
+  text-align: center;
+  transition: all .25s;
+}
+
+
+
+.wrapper a:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: rgb(100, 230, 250);
+  transition: all .25s;
+}
+
+.wrapper a:hover{
+  color: rgb(5, 100, 200);
+}
+.wrapper a:hover:after{
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+  .toplinks a, .columnmain {
+    width: 100%;
+	
+  }	
+	
+  
+  
+  
+
+
+
+//// te beidzas 
+  
