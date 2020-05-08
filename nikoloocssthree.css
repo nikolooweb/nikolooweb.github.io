@@ -54,6 +54,15 @@ body {
   
 }
 
+  .fix {
+	    
+		display: block;
+    margin-left: auto;
+    margin-right: auto;
+	overflow: auto;
+	  
+  }
+
 
 
 .columnmain {
@@ -166,6 +175,21 @@ position: fixed;
   width: 100%;
 }
 
+.icon {
+  
+position: fixed;
+  top: 80%;
+  left: 90%;
+  display: block;
+  
+}
+
+
+.icon a:hover{
+  filter: blur(2px);
+
+}
+
 
 @media screen and (max-width: 800px) {
   .toplinks a, .columnmain {
@@ -173,7 +197,7 @@ position: fixed;
 	
   }	
 	
-  
+
   
   
 

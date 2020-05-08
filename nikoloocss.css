@@ -125,6 +125,16 @@ overflow-x: hidden;
 	}
 	
 }
+
+.bannertwo:hover {
+	
+	 animation-play-state:paused;
+	
+}
+
+
+
+
  h2{
 	  
 	 text-align:center;
@@ -183,11 +193,36 @@ position: fixed;
 }
 
 
+
+  .icon {
+  
+position: fixed;
+  top: 80%;
+  left: 90%;
+  display: block;
+  
+}
+
+
+.icon a:hover{
+  filter: blur(2px);
+
+}
+
+
+
+
+
+
 @media screen and (max-width: 1000px) {
   .toplinks a, .columnmain, .columnside {
     width: 100%;
 	
   }	
+  
+  
+  
+
 	
   
  
