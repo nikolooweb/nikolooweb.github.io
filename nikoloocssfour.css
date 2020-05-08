@@ -1,0 +1,194 @@
+body {
+  background-image: linear-gradient(to bottom,  rgb(100, 230, 250), rgb(3, 99, 255));
+
+}
+
+
+
+
+.header {
+	
+	background-color: white;
+	text-align: center;
+	padding-bottom: 10px;
+	border-width: 20px;
+	border-color: blue;
+	padding: 30px;
+	border-style: solid solid none solid;		
+}
+
+.header a{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 80px;
+	color: black;
+	text-decoration: none;	
+}
+
+
+
+
+
+
+
+.toplinks {
+  overflow: hidden;
+  background-color: black;  
+  border-left: 20px solid blue;
+  border-right: 20px solid blue;
+}
+
+.toplinks a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  width: 33.333%;
+  padding: 10px 0px 10px 0px;
+  text-decoration: none;
+  font-family: "Arial Black", Gadget, sans-serif;  
+}
+
+.toplinks a:hover {
+  background-color: white;
+  color: black;
+  
+}
+
+
+
+
+.fade-bg {
+  animation-name: fade-bg;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-direction: forward;
+}
+
+
+.anime {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+
+@keyframes example {
+    0% {
+        opacity: 0;
+        background-image: url('youtubephoto.png');
+    }
+
+    25% {
+        opacity: 1;
+        background-image: url('chainphoto.jpg');
+    }
+
+    50% {
+        opacity: 0;
+        background-image: url('moviephoto.png');
+    }
+
+    51% {
+        opacity: 0;
+        background-image: url('steamphoto.png');
+    }
+
+    75% {
+        opacity: 1;
+        background-image: url('aliphoto.jpg');
+    }
+
+    100% {
+        opacity: 0;
+        background-image: url('oneaphoto.png');
+    }
+}
+
+
+
+
+
+
+
+
+
+.columnmain {
+padding-right: 15%;
+padding-left: 15%;
+width: 70%;
+font-family: Verdana, Geneva, sans-serif;
+  
+  
+}
+
+
+.columnback {
+  background-color: white;
+  padding: 10px 20px 20px 20px;
+  margin: 15px;
+}
+
+
+
+
+.wrapper{
+
+position: fixed;
+  top: 90%;
+  left: 5%;
+}
+
+
+.wrapper a{
+  
+  display: block;
+  background-color: rgb(5, 100, 200);
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, sans-serif;
+  text-decoration: none;
+  color: white;
+  border: 3px solid black;
+  text-align: center;
+  transition: all .25s;
+}
+
+
+
+.wrapper a:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: rgb(100, 230, 250);
+  transition: all .25s;
+}
+
+.wrapper a:hover{
+  color: rgb(5, 100, 200);
+}
+.wrapper a:hover:after{
+  width: 100%;
+}
+
+
+@media screen and (max-width:  800px){
+  .toplinks a, .columnmain {
+    width: 100%;
+	
+  }	
+	
+  
+  
+  
+
+
+
+//// te beidzas 
+  
